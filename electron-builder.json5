@@ -28,6 +28,9 @@
         ]
       }
     ],
+    extraFiles: [
+      { from: "libs", to: ".", filter: ["*.dll"] },
+    ],
     "artifactName": "${productName}-Windows-${version}-Setup.${ext}"
   },
   "nsis": {

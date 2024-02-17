@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace EdgeClassLibrary
+{
+    public class EdgeClassPrinter
+    {
+        /// <summary>
+        /// electron 测试文件
+        /// </summary>
+        /// <param name="input">传入的内容</param>
+        /// <returns></returns>
+        public async Task<object> Add(object input)
+        {
+            Dictionary<int, string> keyValuePairs = new Dictionary<int, string>
+            {
+                { 0, input.ToString() }
+            };
+
+            return await Task.FromResult(keyValuePairs);
+        }
+    }
+}

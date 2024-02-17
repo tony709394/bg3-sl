@@ -13,6 +13,7 @@ export default defineConfig(({ command }) => {
   const sourcemap = isServe || !!process.env.VSCODE_DEBUG
 
   return {
+    transpileDependencies: true,
     plugins: [
       vue(),
       electron({
