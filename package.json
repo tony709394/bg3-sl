@@ -22,6 +22,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build && electron-builder",
+    "version:patch": "npm version patch",
     "preview": "vite preview"
   },
   "devDependencies": {
