@@ -21,6 +21,10 @@ Baldur's Gate 3 game archive save/load tool, mainly for honor mode.
 - Try to turn off `when using the app in full screen mode (priority notification banner will also be hidden)`, otherwise the system will not be able to pop up save save notifications during the full screen of the game
   ![](/docs/notification_settings.png)
 - Configure the game path, for example: `C:\Users\[your username]\AppData\Local\Larian Studios\Baldur's Gate 3`
+- Enter the game and save the game, press the save shortcut key to complete the current archive backup
+- Go back to the main menu of the game before backtracking the save
+- Open `bg3-sl`, select the target archive and press the Load button
+- Return to the main menu of the game and press the Continue button
 
 ## Todo
 - [ ] Clearer documentation
